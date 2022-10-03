@@ -5,14 +5,14 @@
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <title>Unity WebGL Player | projeto</title>
   </head>
-  <body style="text-align: center; background-color:black; margin-top: 2vh">
-    <canvas id="unity-canvas" width=960 height=600 style="width: 96vw; height: 96vh; background: #231F20"></canvas>
-    <script src="Build/Angry Airplane.loader.js"></script>
+  <body style="text-align: center">
+    <canvas id="unity-canvas" width=960 height=600 style="width: 960px; height: 600px; background: #231F20"></canvas>
+    <script src="Build/AngryAirplane.loader.js"></script>
     <script>
       createUnityInstance(document.querySelector("#unity-canvas"), {
-        dataUrl: "Build/Angry Airplane.data",
-        frameworkUrl: "Build/Angry Airplane.framework.js",
-        codeUrl: "Build/Angry Airplane.wasm",
+        dataUrl: "Build/AngryAirplane.data",
+        frameworkUrl: "Build/AngryAirplane.framework.js",
+        codeUrl: "Build/AngryAirplane.wasm",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "DefaultCompany",
         productName: "projeto",
